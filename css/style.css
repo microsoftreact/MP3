@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#d1cec2, rgb(116, 206, 218));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  gap: 19px;
+}
+
+button {
+  padding: 11px 44px;
+  font-size: 19px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  outline: none;
+  color: #262424;
+}
+
+button:active {
+  scale: 0.9;
+}
